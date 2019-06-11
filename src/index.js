@@ -1,6 +1,6 @@
 import './services/check-auth.js';
-import App from './App.js';
-import { auth } from '../services/firebase.js';
+import App from './home/App.js';
+import { auth } from './services/firebase.js';
 
 const root = document.getElementById('app');
 
